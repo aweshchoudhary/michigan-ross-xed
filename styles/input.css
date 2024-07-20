@@ -1,0 +1,255 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --primary: 206 100% 23%;
+        --background: 209 100% 15%;
+        --secondary: 195 100% 40%;
+        --third: 49 100% 50%;
+        --light-gray: 0 0% 94%;
+        --border: 0 0% 92%;
+        --wpforms-label-error-color: 0 100% 67% !important;
+    }
+
+    body,
+    html {
+        font-family: 'Montserrat', sans-serif;
+        @apply outline-primary scroll-smooth text-[#4e4e4e];
+    }
+
+    input,
+    select,
+    textarea {
+        @apply rounded-none !important;
+    }
+
+    * {
+        @apply outline-primary accent-primary !important;
+    }
+
+    /* Common Styles for Text */
+    /* Global Styles for Text Elements */
+    h1 {
+        @apply md:text-4xl sm:text-3xl text-3xl font-bold leading-tight;
+    }
+
+    h2 {
+        @apply md:text-4xl text-primary mb-5 sm:text-2xl text-2xl;
+    }
+
+    h3 {
+        @apply md:text-2xl text-primary mb-3 sm:text-xl text-lg;
+    }
+
+    h4 {
+        @apply md:text-xl mb-1 font-medium text-primary text-xl;
+    }
+
+    h5 {
+        @apply md:text-lg text-primary text-lg;
+    }
+
+    h6 {
+        @apply md:text-base text-primary text-xl;
+    }
+
+    p {
+        @apply text-base leading-loose mb-4;
+    }
+
+    a {
+        @apply text-primary hover:text-secondary;
+    }
+
+    strong,
+    b {
+        @apply font-bold;
+    }
+
+    em {
+        @apply italic;
+    }
+
+    blockquote {
+        @apply text-lg italic border-l-4 border-gray-300 pl-4;
+    }
+
+    ul {
+        @apply list-disc mb-5 pl-5 text-base leading-relaxed;
+    }
+
+    ol {
+        @apply list-decimal mb-5 pl-5 text-base leading-relaxed;
+    }
+
+    li {
+        @apply text-base;
+    }
+
+    code {
+        @apply font-mono text-sm bg-gray-100 p-1 rounded;
+    }
+
+    pre {
+        @apply font-mono text-sm bg-gray-100 p-4 rounded overflow-x-auto;
+    }
+
+    hr {
+        @apply border-t-2 border-gray-300 my-6;
+    }
+
+    small {
+        @apply text-sm;
+    }
+
+    mark {
+        @apply bg-yellow-200;
+    }
+
+    del {
+        @apply line-through;
+    }
+
+    ins {
+        @apply underline text-green-500;
+    }
+
+    sub {
+        @apply align-baseline text-sm;
+    }
+
+    sup {
+        @apply align-baseline text-sm;
+    }
+}
+
+.section {
+    @apply md:px-28 md:py-14 p-5;
+}
+.section-x {
+    @apply md:px-28 px-5;
+}
+.section-y {
+    @apply md:py-14 py-5;
+}
+/* ====== */
+
+.image-video {
+    @apply w-full h-full object-cover aspect-video;
+}
+.image-cover {
+    @apply w-full h-full object-cover;
+}
+.image-contain {
+    @apply w-full h-full object-contain;
+}
+
+/* Button Sytles */
+.play-btn {
+    @apply rounded-full md:size-[90px] size-[50px] bg-[#d73232] text-white flex items-center justify-center absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 md:text-5xl text-3xl transition;
+}
+
+/* Button Sytles */
+
+.wpforms-submit,
+.cbtn-primary,
+.wpforms-page-button,
+.wpforms-page-next {
+    @apply block w-fit text-center rounded-md bg-secondary h-fit hover:bg-secondary/80 transition-all px-5 py-4 font-medium border border-secondary text-white  mt-5 !important;
+}
+
+.cbtn-outline {
+    @apply block w-fit text-center px-6 py-3 border border-primary hover:bg-primary hover:text-white transition;
+}
+
+.slick-btn {
+    @apply absolute top-1/2 -translate-y-1/2 md:text-5xl text-3xl md:p-3 p-2 z-[99];
+}
+
+/* ======= */
+
+.main-form .wpforms-title {
+    @apply md:text-4xl text-2xl font-medium text-center text-white !important;
+}
+
+.wpforms-field-label {
+    @apply mb-2 block font-normal !important;
+}
+
+.main-form .wpforms-field-required {
+    @apply outline-blue-500 !important;
+}
+
+.main-form .wpforms-submit-container {
+    @apply flex justify-center !important;
+}
+
+.wpforms-field {
+    @apply py-3 !important;
+}
+
+.main-form .form-link {
+    @apply text-[#ffa500] !important;
+}
+
+.main-form .wpforms-required-label {
+    @apply text-red-500  !important;
+}
+
+.main-form .wpforms-head-container {
+    @apply pb-0 !important;
+}
+
+.main-form .form-message-term {
+    @apply text-center mt-2 !important;
+}
+
+.main-form .form-message-dissallowed {
+    @apply p-5 bg-white text-[#636363] space-y-4 mt-2 !important;
+}
+
+/* Emi Form Styles */
+
+.emi-form .wpforms-container {
+    @apply m-0 !important;
+}
+.emi-form .wpforms-title {
+    @apply md:text-3xl text-2xl font-medium text-center !important;
+}
+
+.wpforms-field-label {
+    @apply mb-1 !important;
+}
+
+.emi-form-message {
+    @apply space-y-5 mt-5 !important;
+}
+
+.emi-form .emi-form-submit,
+.emi-form .eligibility-form-submit,
+.git-submit {
+    @apply bg-primary py-3 mt-3 h-fit px-6 border border-white border-solid !important;
+}
+
+.emi-table {
+    @apply table border border-solid border-gray-300 text-base !important;
+}
+
+.emi-table th {
+    @apply bg-gray-50 text-base !important;
+}
+
+.emi-form-india-message {
+    @apply space-y-5 my-5 !important;
+}
+
+.mesg-list,
+div.wpforms-container-full .wpforms-form .wpforms-field-html ul {
+    @apply ml-5 my-0 list-disc !important;
+}
+
+.eligibility-terms-msg {
+    @apply mt-3 !important;
+}
