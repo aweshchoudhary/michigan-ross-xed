@@ -16,7 +16,7 @@
     body,
     html {
         font-family: 'Montserrat', sans-serif;
-        @apply outline-primary scroll-smooth text-[#4e4e4e];
+        @apply outline-primary w-screen overflow-x-hidden scroll-smooth text-[#4e4e4e];
     }
 
     input,

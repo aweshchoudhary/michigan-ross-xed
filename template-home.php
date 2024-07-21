@@ -40,23 +40,23 @@ $program_details = get_field('program_details');
         <div class="flex flex-wrap md:gap-10 md:justify-between gap-5">
             <div class="lg:basis-auto sm:basis-1/3 basis-full">
                 <h3 class="text-third md:mb-3 mb-0">Start Date</h3>
-                <p class="md:text-3xl text-xl font-semibold">22 Sept 2024</p>
+                <p class="mb-0 md:text-3xl text-xl font-semibold">22 Sept 2024</p>
             </div>
             <div class="lg:basis-auto sm:basis-1/3 basis-full">
                 <h3 class="text-third md:mb-3 mb-0">Format</h3>
-                <p class="md:text-3xl text-xl font-semibold">100% Live Interactive</p>
+                <p class="mb-0 md:text-3xl text-xl font-semibold">100% Live Interactive</p>
             </div>
             <div class="lg:basis-auto sm:basis-1/3 basis-full">
                 <h3 class="text-third md:mb-3 mb-0">Duration</h3>
-                <p class="md:text-3xl text-xl font-semibold">6 Months</p>
+                <p class="mb-0 md:text-3xl text-xl font-semibold">6 Months</p>
             </div>
             <div class="lg:basis-auto sm:basis-1/3 basis-full">
                 <h3 class="text-third md:mb-3 mb-0">Program Fee</h3>
-                <p class="md:text-3xl text-xl font-semibold">USD 4,800</p>
+                <p class="mb-0 md:text-3xl text-xl font-semibold">USD 4,800</p>
             </div>
             <div class="basis-full">
                 <p class="text-xs text-gray-300 mb-0">
-                    Disclaimer: Please note that in the event of a global or regional catastrophe, or any unforeseen circumstances, <br> the Program's schedule, delivery method, faculty, and associated elements are subject to change at the sole discretion of the university.
+                    Disclaimer: Please note that in the event of a global or regional catastrophe, or any unforeseen circumstances, <br> <br class="md:hidden"> the Program's schedule, delivery method, faculty, and associated elements are subject to change at the sole discretion of the university.
                 </p>
             </div>
         </div>
@@ -118,29 +118,29 @@ $program_details = get_field('program_details');
                 <div class="flex-1">
                     <h3>Rankings</h3>
                     <div class="w-fit space-y-3 text-white">
-                        <div class="flex bg-primary gap-5 p-3">
-                            <p style="font-family: Atkinson Hyperlegible;" class="text-third text-5xl font-bold mb-0">#1</p>
+                        <div class="flex bg-primary md:gap-5 gap-3 p-3">
+                            <p style="font-family: Atkinson Hyperlegible;" class="text-third text-3xl font-bold mb-0">#1</p>
                             <p class="mb-0">
                                 <span class="font-medium">Public University in the Nation</span> <br>
                                 <span class="text-sm">(QS World University Rankings, 2022)</span>
                             </p>
                         </div>
-                        <div class="flex bg-primary gap-5 p-3">
-                            <p style="font-family: Atkinson Hyperlegible;" class="text-third text-5xl font-bold mb-0">#1</p>
+                        <div class="flex bg-primary md:gap-5 gap-3 p-3">
+                            <p style="font-family: Atkinson Hyperlegible;" class="text-third text-3xl font-bold mb-0">#1</p>
                             <p class="mb-0">
                                 <span class="font-medium">Executive Education Program in North America</span> <br>
                                 <span class="text-sm">(Financial Times, 2022)</span>
                             </p>
                         </div>
-                        <div class="flex bg-primary gap-5 p-3">
-                            <p style="font-family: Atkinson Hyperlegible;" class="text-third text-5xl font-bold mb-0">#1</p>
+                        <div class="flex bg-primary md:gap-5 gap-3 p-3">
+                            <p style="font-family: Atkinson Hyperlegible;" class="text-third text-3xl font-bold mb-0">#1</p>
                             <p class="mb-0">
                                 <span class="font-medium">Full-Time MBA Program</span> <br>
                                 <span class="text-sm"> (Economist, 2022)</span>
                             </p>
                         </div>
-                        <div class="flex bg-primary gap-5 p-3">
-                            <p style="font-family: Atkinson Hyperlegible;" class="text-third text-5xl font-bold mb-0">#1</p>
+                        <div class="flex bg-primary md:gap-5 gap-3 p-3">
+                            <p style="font-family: Atkinson Hyperlegible;" class="text-third text-3xl font-bold mb-0">#1</p>
                             <p class="mb-0">
                                 <span class="font-medium">Overall Satisfaction for Custom Programs</span> <br>
                                 <span class="text-sm">(Financial Times, 2022)</span>
@@ -228,9 +228,9 @@ $program_details = get_field('program_details');
             <p>Designed to empower future C-suite executives, the modular curriculum of this program focuses on three key themes that are the crucial pillars essential for high-performing leaders across roles. </p>
 
             <div class="space-y-3">
-                <div class="collapse collapse-arrow bg-white border-border border rounded-none">
-                    <input type="radio" name="my-accordion" />
-                    <div class="collapse-title text-xl font-medium">
+                <div class="collapse collapse-arrow bg-white border-border group border rounded-none">
+                    <input type="checkbox" />
+                    <div class="collapse-title text-xl font-medium group-focus:text-primary">
                         <h3 class="mb-0 text-inherit">Theme 1 - Lead with Confidence</h3>
                     </div>
                     <div class="collapse-content">
@@ -250,9 +250,9 @@ $program_details = get_field('program_details');
                         <p>Authenticity and personal growth are the foundations for leading transformational change. This session empowers executives to embark on a journey of self-discovery, recognizing that personal change is the catalyst for inspiring organizational change. Participants will explore the power of self-awareness, learn to identify their values, strengths, and areas for growth, and develop strategies for leading with integrity. The session will delve into the importance of aligning actions with values, building trust through vulnerability, and cultivating meaningful relationships that drive positive change. By embracing personal transformation, executives will unlock their full leadership potential and become catalysts for lasting change within their organizations.</p>
                     </div>
                 </div>
-                <div class="collapse collapse-arrow bg-white border-border border rounded-none">
-                    <input type="radio" name="my-accordion" />
-                    <div class="collapse-title text-xl font-medium">
+                <div class="collapse collapse-arrow bg-white border-border group border rounded-none">
+                    <input type="checkbox" />
+                    <div class="collapse-title text-xl font-medium group-focus:text-primary">
                         <h3 class="mb-0 text-inherit">Theme 2 - Innovate Fearlessly</h3>
                     </div>
                     <div class="collapse-content">
@@ -272,9 +272,9 @@ $program_details = get_field('program_details');
                         <p>Generative AI is reshaping the business landscape at an unprecedented pace. This session provides a comprehensive overview of generative AI's current capabilities, limitations, and potential impact across various industries. Participants will explore real-world use cases, delve into the AI maturity levels of different sectors, and gain insights into leading generative AI offerings from major tech players. This session will equip executives with the knowledge to prepare for an AI-driven future, segment clients based on their AI capabilities, and strategically position their organizations to leverage generative AI for innovation, efficiency, and competitive advantage.</p>
                     </div>
                 </div>
-                <div class="collapse collapse-arrow bg-white border-border border rounded-none">
-                    <input type="radio" name="my-accordion" />
-                    <div class="collapse-title text-xl font-medium">
+                <div class="collapse collapse-arrow bg-white border-border group border rounded-none">
+                    <input type="checkbox" />
+                    <div class="collapse-title text-xl font-medium group-focus:text-primary">
                         <h3 class="mb-0 text-inherit">Theme 3 - Execute with Passion</h3>
                     </div>
                     <div class="collapse-content">
