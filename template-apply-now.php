@@ -6,13 +6,9 @@ get_header(); ?>
     <div>
         <header class="space-y-5 mb-5">
             <p>
-                Thank you for your interest in the Oxford Senior Executive Leadership Programme.
+                Thank you for your interest in the Michigan Ross CXO Leadership Programme.
                 <br>
                 <br>
-                We seek aspirants who wish to gain leadership knowledge and expertise, and are willing to contribute to the cohort and Oxford Business Alumni Network.
-                <br>
-                <br>
-
                 Please provide your details below. The admissions team will review your credentials and contact you shortly.
                 <br>
                 <br>
