@@ -92,23 +92,23 @@ $program_details = get_field('program_details');
                 <div class="flex-1">
                     <ul class="text-2xl list-none pl-0 flex gap-2 flex-wrap font-medium">
                         <li class="flex items-center gap-3 border py-2 px-3 bg-white md:basis-auto basis-full">
-                            <figure class="md:w-[40px] w-[30px]"><img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/1.png" alt=""></figure>
+                            <figure class="md:w-[40px] w-[30px]"><img class="image-contain" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/1.png" alt=""></figure>
                             Connect and Collaborate
                         </li>
                         <li class="flex items-center gap-3 border py-2 px-3 bg-white md:basis-auto basis-full">
-                            <figure class="md:w-[40px] w-[30px]"><img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/2.png" alt=""></figure>
+                            <figure class="md:w-[40px] w-[30px]"><img class="image-contain" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/2.png" alt=""></figure>
                             Learn and Grow
                         </li>
                         <li class="flex items-center gap-3 border py-2 px-3 bg-white md:basis-auto basis-full">
-                            <figure class="md:w-[40px] w-[30px]"><img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/5.png" alt=""></figure>
+                            <figure class="md:w-[40px] w-[30px]"><img class="image-contain" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/5.png" alt=""></figure>
                             Be Inclusive
                         </li>
                         <li class="flex items-center gap-3 border py-2 px-3 bg-white md:basis-auto basis-full">
-                            <figure class="md:w-[40px] w-[30px]"><img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/3.png" alt=""></figure>
+                            <figure class="md:w-[40px] w-[30px]"><img class="image-contain" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/3.png" alt=""></figure>
                             Be an Owner
                         </li>
                         <li class="flex items-center gap-3 border py-2 px-3 bg-white md:basis-auto basis-full">
-                            <figure class="md:w-[40px] w-[30px]"><img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/4.png" alt=""></figure>
+                            <figure class="md:w-[40px] w-[30px]"><img class="image-contain" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/4.png" alt=""></figure>
                             Be Greate Things
                         </li>
                     </ul>
@@ -158,7 +158,7 @@ $program_details = get_field('program_details');
             <ul class="flex pl-0 md:gap-10 gap-5 flex-wrap list-none text-center">
                 <li class="space-y-5 md:basis-1/4 sm:basis-1/3 basis-full flex-1">
                     <figure class="w-28 mx-auto aspect-square">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/benefits-4.png" alt="">
+                        <img class="image-contain" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/benefits-4.png" alt="">
                         <figcaption class="sr-only">Image</figcaption>
                     </figure>
                     <div>
@@ -168,7 +168,7 @@ $program_details = get_field('program_details');
                 </li>
                 <li class="space-y-5 md:basis-1/4 sm:basis-1/3 basis-full flex-1">
                     <figure class="w-28 mx-auto aspect-square">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/benefits-1.png" alt="">
+                        <img class="image-contain" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/benefits-1.png" alt="">
                         <figcaption class="sr-only">Image</figcaption>
                     </figure>
                     <div>
@@ -180,7 +180,7 @@ $program_details = get_field('program_details');
                 </li>
                 <li class="space-y-5 md:basis-1/4 sm:basis-1/3 basis-full flex-1">
                     <figure class="w-28 mx-auto aspect-square">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/benefits-2.png" alt="">
+                        <img class="image-contain" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/benefits-2.png" alt="">
                         <figcaption class="sr-only">Image</figcaption>
                     </figure>
                     <div>
@@ -190,7 +190,7 @@ $program_details = get_field('program_details');
                 </li>
                 <li class="space-y-5 md:basis-1/4 sm:basis-1/3 basis-full flex-1">
                     <figure class="w-28 mx-auto aspect-square">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/benefits-8.png" alt="">
+                        <img class="image-contain" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/benefits-8.png" alt="">
                         <figcaption class="sr-only">Image</figcaption>
                     </figure>
                     <div>
@@ -200,7 +200,7 @@ $program_details = get_field('program_details');
                 </li>
                 <li class="space-y-5 md:basis-1/4 sm:basis-1/3 basis-full flex-1">
                     <figure class="w-28 mx-auto aspect-square">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/benefits-5.png" alt="">
+                        <img class="image-contain" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/benefits-5.png" alt="">
                         <figcaption class="sr-only">Image</figcaption>
                     </figure>
                     <div>
@@ -210,7 +210,7 @@ $program_details = get_field('program_details');
                 </li>
                 <li class="space-y-5 md:basis-1/4 sm:basis-1/3 basis-full flex-1">
                     <figure class="w-28 mx-auto aspect-square">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/benefits-7.png" alt="">
+                        <img class="image-contain" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/benefits-7.png" alt="">
                         <figcaption class="sr-only">Image</figcaption>
                     </figure>
                     <div>
@@ -328,77 +328,77 @@ $program_details = get_field('program_details');
             <div class="slick-slider-faculty md:px-44 px-5 relative z-0">
                 <div class="p-6 h-full">
                     <figure class="aspect-square mb-3 w-full overflow-hidden group">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/Andrew-Wu.png" alt="">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Andrew-Wu.png" alt="">
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Andrew Wu</p>
                     <p class="mb-2 text-left text-sm">Assistant Professor of Technology and Operations; Stein Research Scholar; Michael R. and Mary Kay Hallman Fellow</p>
                 </div>
                 <div class="p-6 h-full">
                     <figure class="aspect-square mb-3 w-full overflow-hidden group">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/Brad-Killaly.png" alt="">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Brad-Killaly.png" alt="">
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Brad Killaly</p>
                     <p class="mb-2 text-left text-sm">Clinical Associate Professor of Strategy</p>
                 </div>
                 <div class="p-6 h-full">
                     <figure class="aspect-square mb-3 w-full overflow-hidden group">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/Hyun-Soo-Ahn.png" alt="">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Hyun-Soo-Ahn.png" alt="">
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Hyun-Soo Ahn</p>
                     <p class="mb-2 text-left text-sm">Ford Motor Company Co-Director of the Joel D. Tauber Institute for Global Operations; Professor of Technology and Operations</p>
                 </div>
                 <div class="p-6 h-full">
                     <figure class="aspect-square mb-3 w-full overflow-hidden group">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/Izak-Duenyas.png" alt="">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Izak-Duenyas.png" alt="">
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Izak Duenyas</p>
                     <p class="mb-2 text-left text-sm">Herrick Professor of Business; Professor of Technology and Operations; Professor of Industrial and Operations Engineering; Faculty Director, Executive MBA Program</p>
                 </div>
                 <div class="p-6 h-full">
                     <figure class="aspect-square mb-3 w-full overflow-hidden group">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/Lindy-Greer.png" alt="">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Lindy-Greer.png" alt="">
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Lindy Greer</p>
                     <p class="mb-2 text-left text-sm">Clinical Associate Professor of Strategy</p>
                 </div>
                 <div class="p-6 h-full">
                     <figure class="aspect-square mb-3 w-full overflow-hidden group">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/Maxim-Sytch.png" alt="">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Maxim-Sytch.png" alt="">
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Maxim Sytch</p>
                     <p class="mb-2 text-left text-sm">Professor of Management and Organizations</p>
                 </div>
                 <div class="p-6 h-full">
                     <figure class="aspect-square mb-3 w-full overflow-hidden group">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/Prof.-Dr.-M.-S.-Krishnan.png" alt="">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Prof.-Dr.-M.-S.-Krishnan.png" alt="">
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">M. S. Krishnan</p>
                     <p class="mb-2 text-left text-sm">Faculty Director; Accenture Professor of Computer Information Systems; Professor of Technology & Operations</p>
                 </div>
                 <div class="p-6 h-full">
                     <figure class="aspect-square mb-3 w-full overflow-hidden group">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/Nigel-Melville.png" alt="">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Nigel-Melville.png" alt="">
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Nigel Melville</p>
                     <p class="mb-2 text-left text-sm">Associate Professor of Technology and Operations</p>
                 </div>
                 <div class="p-6 h-full">
                     <figure class="aspect-square mb-3 w-full overflow-hidden group">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/Ravi-Anupindi.png" alt="">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Ravi-Anupindi.png" alt="">
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Ravi Anupindi</p>
                     <p class="mb-2 text-left text-sm">Colonel William G. and Ann C. Svetlich Professor of Operations Research and Management; Professor of Technology & Operations; Faculty Director, Center for Value Chain Innovation</p>
                 </div>
                 <div class="p-6 h-full">
                     <figure class="aspect-square mb-3 w-full overflow-hidden group">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/Ruslan-Momot.png" alt="">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Ruslan-Momot.png" alt="">
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Ruslan Momot</p>
                     <p class="mb-2 text-left text-sm">Assistant Professor of Technology and Operations</p>
                 </div>
                 <div class="p-6 h-full">
                     <figure class="aspect-square mb-3 w-full overflow-hidden group">
-                        <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/Sanjeev-Kumar.png" alt="">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Sanjeev-Kumar.png" alt="">
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Sanjeev Kumar</p>
                     <p class="mb-2 text-left text-sm">Lecturer of Technology and Operations</p>
@@ -444,7 +444,7 @@ $program_details = get_field('program_details');
             <h2>Michigan Ross</h2>
             <p>Founded in 1924, the Stephen M. Ross School of Business at the University of Michigan is committed to building a better world through business. Through powerful ideas, purpose-driven leaders, and positive impact, we use business to make a meaningful difference in the world.</p>
             <figure class="w-full">
-                <img class="image-contain" src="<?php echo get_template_directory_uri() ?>/assets/dei-about.jpg" alt="">
+                <img class="image-contain" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/dei-about.jpg" alt="">
             </figure>
         </div>
         <div class="flex-1">
