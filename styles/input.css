@@ -56,7 +56,7 @@
     }
 
     p {
-        @apply text-base leading-loose mb-4;
+        @apply text-base md:leading-loose leading-relaxed mb-4;
     }
 
     a {

@@ -19,29 +19,17 @@
         <div class="border-b flex items-center justify-between border-gray-600 md:px-28 px-5 py-4 md:gap-0 gap-20">
             <a aria-label="goto home page" href="/">
                 <figure class="md:w-[100px] w-[60px]">
-                    <?php echo wp_get_attachment_image(524, "medium", false, array(
-                        "loading" => "eager",
-                        "class" => "image-contain",
-                    )); ?>
-                    <figcaption><?php echo wp_get_attachment_caption(
-                                    524
-                                ); ?></figcaption>
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/xed.png" class="image-contain" alt="">
                 </figure>
             </a>
             <a aria-label="goto home page" href="/">
                 <figure class="md:w-[300px] w-[280px]">
-                    <?php echo wp_get_attachment_image(525, "medium", false, array(
-                        "loading" => "eager",
-                        "class" => "image-contain",
-                    )); ?>
-                    <figcaption><?php echo wp_get_attachment_caption(
-                                    525
-                                ); ?></figcaption>
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/michigan-ross.png" class="image-contain" alt="">
                 </figure>
             </a>
         </div>
         <div class="py-3 text-center">
-            <h2 class="capitalize mb-0 font-semibold text-white">michigan ross cxo leadership program</h2>
+            <h2 class="capitalize mb-0 font-semibold text-white">michigan ross CXO leadership program</h2>
         </div>
     </header>
 

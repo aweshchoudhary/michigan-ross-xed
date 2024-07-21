@@ -7,16 +7,10 @@ $download_brochure_file = get_field("download_brochure_file");
 ?>
 <article class="md:p-20 p-5 min-h-[80vh] flex items-center justify-center">
 
-    <h1 class="md:text-5xl text-2xl font-bold">Thank You!</h1>
-
-
-
     <script>
         window.onload = function() {
             const fileName = 'program-brochure.pdf';
-            const fileUrl = "<?php echo $download_brochure_file[
-                "brochure_file"
-            ]; ?>";
+            const fileUrl = "<?php echo $download_brochure_file["brochure_file"]; ?>";
 
             if (fileUrl) {
                 // Create a hidden anchor element

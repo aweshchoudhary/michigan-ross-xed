@@ -2,14 +2,7 @@
 <footer class="md:p-20 px-5 md:py-20 py-10 bg-background text-white flex flex-wrap gap-5">
     <div class="md:basis-1/4 basis-full flex-1 gap-5">
         <figure class="md:w-1/2 w-20">
-            <?php echo wp_get_attachment_image(468, "medium", false, [
-                "loading" => "lazy",
-                "class" => "image-contain",
-            ]); ?>
-            <figcaption><?php echo wp_get_attachment_caption(
-                            468
-                        ); ?></figcaption>
-            <figcaption class="sr-only">xed footer logo white</figcaption>
+            <img src="<?php echo get_template_directory_uri() ?>/assets/xed.png" class="image-contain" alt="">
         </figure>
 
         <ul class="list-none pl-0 mt-10 space-y-3 text-lg">
