@@ -9,6 +9,7 @@ module.exports = {
                 third: 'hsl(var(--third))',
                 background: 'hsl(var(--background))',
                 border: 'hsl(var(--border))',
+                pred: 'hsl(var(--pred))',
                 'light-gray': 'hsl(var(--light-gray))',
                 'dark-blue': 'hsl(var(--dark-blue))',
             },

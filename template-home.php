@@ -40,7 +40,7 @@ $program_details = get_field('program_details');
         <div class="flex flex-wrap md:gap-10 md:justify-between gap-5">
             <div class="lg:basis-auto sm:basis-1/3 basis-full">
                 <h3 class="text-third md:mb-3 mb-0">Start Date</h3>
-                <p class="mb-0 md:text-3xl text-xl font-semibold">22 Sept 2024</p>
+                <p class="mb-0 md:text-3xl text-xl font-semibold">22 Jan 2025</p>
             </div>
             <div class="lg:basis-auto sm:basis-1/3 basis-full">
                 <h3 class="text-third md:mb-3 mb-0">Format</h3>
@@ -79,7 +79,7 @@ $program_details = get_field('program_details');
         </div>
     </section>
     <section class="section bg-light-gray">
-        <h2>Michigan ROSS Advantages</h2>
+        <h2>Michigan Ross Advantages</h2>
         <div class="flex md:flex-row flex-col justify-between md:gap-20 gap-5">
             <div class="flex-1">
                 <p>
@@ -214,8 +214,8 @@ $program_details = get_field('program_details');
                         <figcaption class="sr-only">Image</figcaption>
                     </figure>
                     <div>
-                        <h4>Small Cohort for Impactful Learning</h4>
-                        <p>Join a select group of peers for intimate, collaborative learning experiences that foster meaningful connections and lasting professional relationships</p>
+                        <h4>100 Days of Coaching</h4>
+                        <p>Becoming Who You Really Are: How to Grow Yourself and Your Organization</p>
                     </div>
                 </li>
             </ul>
@@ -301,6 +301,54 @@ $program_details = get_field('program_details');
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="section">
+        <div>
+            <h2>100 Days of Coaching</h2>
+
+            <h3>Becoming Who You Really Are: How to Grow Yourself and Your Organization</h3>
+            <div class="w-4/5 my-5">
+                <figure class="cursor-pointer relative group" onclick="lazyLoadVideo('89EXew_NZBM', this)">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/89EXew_NZBM-HD.jpg" class="image-cover" alt="">
+                    <div class="play-btn group-hover:scale-110 transition-all">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="md:text-6xl sm:text-4xl text-3xl" width="1em" height="1em" viewBox="0 0 256 256">
+                            <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
+                        </svg>
+                    </div>
+                </figure>
+            </div>
+
+            <h3>Imagine</h3>
+            <ul>
+                <li>What would happen if leadership development was radically altered?</li>
+                <li>What if all your people spent 3-5 minutes a day for 100 days with a world class leadership coach who refused to tell them what to do?</li>
+                <li>What if everyone spent 3-5 more minutes imagining a better version of themselves?</li>
+                <li>What would happen if every manager, every employee became a leader?</li>
+            </ul>
+
+            <p>
+                <strong><em>“Becoming Who You Really Are"</em></strong> is a comprehensive 100-day course that is designed to allow you to dive deeply into areas where transformation is most needed in your life, relationships, and the impact you have on others. This online course includes five separate, 4-week (20-day) chapters that collectively combine to create the complete 100-day online course experience.
+            </p>
+
+            <h3>Organizations: Invite Your People to Grow</h3>
+
+            <p>
+                Invite Your People to Leadership: At last, a way for you to create a program for your people to develop individually while they also move the organization forward. The change is not directed from the top. It comes from all around the organization as each person becomes who they really are. If you are in need of significant transformation for yourself and throughout your organization, this comprehensive 100-day ‘Becoming Who You Really Are’ course design offers an impactful company-wide application.
+            </p>
+            <p>
+                Now organizations can do leadership development in a fashion that is more effective, less expensive, and automatically gives rise to organizational improvement. And, they can supplement current initiatives with this extended application series.
+            </p>
+
+            <h4>VP OF ENGINEERING, CHESTER KUSTARZ FROM DUO SECURITY HAD THIS TO SAY ABOUT HIS 100 DAYS EXPERIENCE:</h4>
+
+            <h5>Our Goals</h5>
+            <ul>
+                <li>Build a management team centered around positive leadership</li>
+                <li>Find training resources to improve our management and leadership abilities</li>
+            </ul>
+
+            <p>The content is spot on for our goal of positive leadership. It provides many different layers and approaches to teach the material. By making it a daily habit, it becomes a constant reminder of the type of leaders we aspire to be. The format is perfect for rolling it out at our organization. It is low cost. Multiple sessions allow us to send another batch of leaders through the training. It is remote learning which makes it accessible by all.</p>
         </div>
     </section>
     <section class="section-y">
@@ -406,6 +454,66 @@ $program_details = get_field('program_details');
             </div>
         </div>
     </section>
+    <section class="section-y">
+        <div class="section-x">
+            <h2>Global Industrial Experts</h2>
+        </div>
+
+        <div class="relative">
+            <button name="slide previous" aria-label="slide previous" class="global-experts-slick-prev md:left-32 left-2 slick-btn">
+                <svg class="rotate-180" xmlns="http://www.w3.org/2000/svg" width="0.48em" height="1em" viewBox="0 0 608 1280">
+                    <g transform="translate(608 0) scale(-1 1)">
+                        <path fill="currentColor" d="M595 288q0 13-10 23L192 704l393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10L23 727q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23" />
+                    </g>
+                </svg>
+            </button>
+            <button name="slide next" aria-label="slide next" class="global-experts-slick-next md:right-32 right-2 slick-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="0.48em" height="1em" viewBox="0 0 608 1280">
+                    <g transform="translate(608 0) scale(-1 1)">
+                        <path fill="currentColor" d="M595 288q0 13-10 23L192 704l393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10L23 727q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23" />
+                    </g>
+                </svg>
+            </button>
+
+            <div class="slick-slider-global-experts md:px-44 px-5 relative z-0">
+                <div class="p-6 h-full">
+                    <figure class="aspect-square mb-3 w-full overflow-hidden group">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Anton-Musgrave.jpg.webp" alt="">
+                    </figure>
+                    <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Anton Musgrave</p>
+                    <p class="mb-2 text-left text-sm">Futurist and Business Strategist</p>
+                </div>
+                <div class="p-6 h-full">
+                    <figure class="aspect-square mb-3 w-full overflow-hidden group">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Edward-Rogers.jpg.webp" alt="">
+                    </figure>
+                    <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Edward Rogers</p>
+                    <p class="mb-2 text-left text-sm">Ex Chief Knowledge Officer at NASA</p>
+                </div>
+                <div class="p-6 h-full">
+                    <figure class="aspect-square mb-3 w-full overflow-hidden group">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Medini-Singh.png" alt="">
+                    </figure>
+                    <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Medini Singh</p>
+                    <p class="mb-2 text-left text-sm">Professor of Operational Excellence</p>
+                </div>
+                <div class="p-6 h-full">
+                    <figure class="aspect-square mb-3 w-full overflow-hidden group">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Olivier-Tabatoni.jpg.webp" alt="">
+                    </figure>
+                    <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Olivier Tabatoni</p>
+                    <p class="mb-2 text-left text-sm">Professor of Finance and Strategy</p>
+                </div>
+                <div class="p-6 h-full">
+                    <figure class="aspect-square mb-3 w-full overflow-hidden group">
+                        <img class="image-cover" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/Jamie-Anderson.jpg.webp" alt="">
+                    </figure>
+                    <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Jamie Anderson</p>
+                    <p class="mb-2 text-left text-sm">Professor of Creative Leadership</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section>
         <div>
             <div class="section-x">
@@ -413,7 +521,12 @@ $program_details = get_field('program_details');
                 <p>Upon completing the program, you will receive the CXO Leadership Program certificate from Michigan Ross Executive Education.</p>
             </div>
             <div class="relative md:min-h-[600px] min-h-[400px]">
-                <div class="md:w-1/2 w-4/5 md:h-[80%] h-[60%] absolute bg-light-gray inset-1/2 z-20 -translate-x-1/2 -translate-y-1/2"></div>
+                <div class="md:w-1/2 w-4/5 md:h-[80%] h-[60%] absolute bg-light-gray inset-1/2 z-20 -translate-x-1/2 -translate-y-1/2">
+                    <figure class="h-full p-5 border-2 border-secondary bg-white">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/certificate-ross.png" alt="" class="image-contain">
+                    </figure>
+
+                </div>
                 <div class="h-[50%] w-full bg-primary flex flex-col justify-end section-x absolute z-10 bottom-0 left-0">
                     <p class="text-xs text-gray-300">Note: Certificate image is for illustrative purposes only and may be subject to change at the discretion of the University</p>
                 </div>
@@ -508,19 +621,19 @@ $program_details = get_field('program_details');
                     </svg>
                     Have at least a Graduate degree
                 </li>
-                <li class="flex gap-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="text-background md:text-4xl text-2xl shrink-0" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M10.5 15.25A.74.74 0 0 1 10 15l-3-3a.75.75 0 0 1 1-1l2.47 2.47L19 5a.75.75 0 0 1 1 1l-9 9a.74.74 0 0 1-.5.25" />
-                        <path fill="currentColor" d="M12 21a9 9 0 0 1-7.87-4.66a8.7 8.7 0 0 1-1.07-3.41a9 9 0 0 1 4.6-8.81a8.7 8.7 0 0 1 3.41-1.07a8.9 8.9 0 0 1 3.55.34a.75.75 0 1 1-.43 1.43a7.6 7.6 0 0 0-3-.28a7.4 7.4 0 0 0-2.84.89a7.5 7.5 0 0 0-2.2 1.84a7.42 7.42 0 0 0-1.64 5.51a7.4 7.4 0 0 0 .89 2.84a7.5 7.5 0 0 0 1.84 2.2a7.42 7.42 0 0 0 5.51 1.64a7.4 7.4 0 0 0 2.84-.89a7.5 7.5 0 0 0 2.2-1.84a7.42 7.42 0 0 0 1.64-5.51a.75.75 0 1 1 1.57-.15a9 9 0 0 1-4.61 8.81A8.7 8.7 0 0 1 12.93 21z" />
-                    </svg>
-                    Country of residence at the time of enrolling must be Latin America, South Asia, Middle East, Far East
-                </li>
             </ul>
 
-            <a href="/apply-now" class="cbtn-primary">Apply Now</a>
+            <a href="/eligibility" class="cbtn-primary">Apply Now</a>
         </div>
         <div>
 
+        </div>
+    </section>
+    <section class="section">
+        <div>
+            <h2>Inquire for your organisation</h2>
+            <p>Taking this programme with colleagues can enhance communication and accelerate impact within your organisation. It also fosters meaningful discussions among participants.</p>
+            <a href="/get-in-touch" class="cbtn-outline">Get In Touch</a>
         </div>
     </section>
 </article>

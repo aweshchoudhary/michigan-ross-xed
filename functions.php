@@ -127,11 +127,6 @@ function load_slick_carousel_scripts()
                 });
             });
         ");
-
-        // Add custom inline script
-        // wp_add_inline_script('accordion', "
-
-        // ");
     }
 }
 add_action('wp_enqueue_scripts', 'load_slick_carousel_scripts');
