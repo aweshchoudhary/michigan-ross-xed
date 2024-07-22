@@ -308,7 +308,7 @@ $program_details = get_field('program_details');
             <h2>100 Days of Coaching</h2>
 
             <h3>Becoming Who You Really Are: How to Grow Yourself and Your Organization</h3>
-            <div class="w-4/5 my-5">
+            <div class="md:w-4/5 w-full my-5">
                 <figure class="cursor-pointer relative group" onclick="lazyLoadVideo('89EXew_NZBM', this)">
                     <img src="<?php echo get_template_directory_uri() ?>/assets/89EXew_NZBM-HD.jpg" class="image-cover" alt="">
                     <div class="play-btn group-hover:scale-110 transition-all">
@@ -547,24 +547,24 @@ $program_details = get_field('program_details');
                 You will be learning alongside people with roles including:
             </h4>
             <ul class="list-none pl-0 flex flex-wrap gap-3">
-                <li class="px-5 py-3 border w-fit border-secondary">Chief Executive Officer</li>
-                <li class="px-5 py-3 border w-fit border-secondary">Managing Director</li>
-                <li class="px-5 py-3 border w-fit border-secondary">Member of the Board</li>
-                <li class="px-5 py-3 border w-fit border-secondary">Founder/Partner</li>
-                <li class="px-5 py-3 border w-fit border-secondary">Executive Director</li>
-                <li class="px-5 py-3 border w-fit border-secondary">Chief Operating Officer</li>
-                <li class="px-5 py-3 border w-fit border-secondary">Regional Director</li>
-                <li class="px-5 py-3 border w-fit border-secondary">Country Head</li>
-                <li class="px-5 py-3 border w-fit border-secondary">Business Head</li>
-                <li class="px-5 py-3 border w-fit border-secondary">General Manager</li>
-                <li class="px-5 py-3 border w-fit border-secondary">Vice President</li>
-                <li class="px-5 py-3 border w-fit border-secondary">Regional Head</li>
+                <li class="px-5 py-3 border md:w-fit w-full border-secondary">Chief Executive Officer</li>
+                <li class="px-5 py-3 border md:w-fit w-full border-secondary">Managing Director</li>
+                <li class="px-5 py-3 border md:w-fit w-full border-secondary">Member of the Board</li>
+                <li class="px-5 py-3 border md:w-fit w-full border-secondary">Founder/Partner</li>
+                <li class="px-5 py-3 border md:w-fit w-full border-secondary">Executive Director</li>
+                <li class="px-5 py-3 border md:w-fit w-full border-secondary">Chief Operating Officer</li>
+                <li class="px-5 py-3 border md:w-fit w-full border-secondary">Regional Director</li>
+                <li class="px-5 py-3 border md:w-fit w-full border-secondary">Country Head</li>
+                <li class="px-5 py-3 border md:w-fit w-full border-secondary">Business Head</li>
+                <li class="px-5 py-3 border md:w-fit w-full border-secondary">General Manager</li>
+                <li class="px-5 py-3 border md:w-fit w-full border-secondary">Vice President</li>
+                <li class="px-5 py-3 border md:w-fit w-full border-secondary">Regional Head</li>
             </ul>
 
 
         </div>
     </section>
-    <section class="section flex md:gap-10 gap-5 md:flex-row flex-col">
+    <section class="section flex md:gap-10 gap-5 md:flex-row flex-col-reverse">
         <div class="flex-1">
             <h2>Michigan Ross</h2>
             <p>Founded in 1924, the Stephen M. Ross School of Business at the University of Michigan is committed to building a better world through business. Through powerful ideas, purpose-driven leaders, and positive impact, we use business to make a meaningful difference in the world.</p>
