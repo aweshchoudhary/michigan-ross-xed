@@ -23,7 +23,7 @@
                 </figure>
             </a>
             <a aria-label="goto home page" href="/">
-                <figure class="md:w-[100px] sm:w-[60px] w-[60px]">
+                <figure class="md:w-[70px] sm:w-[60px] w-[60px]">
                     <img src="<?php echo get_template_directory_uri() ?>/assets/xed.png" class="image-contain" alt="">
                 </figure>
             </a>

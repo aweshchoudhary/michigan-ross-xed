@@ -40,7 +40,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 md:text-2xl text-xl" width="1em" height="1em" class="text-3xl" viewBox="0 0 20 20">
                     <path fill="currentColor" d="M18 7.373V14.5a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 2 14.5V7.373l7.746 4.558a.5.5 0 0 0 .508 0zM15.5 4a2.5 2.5 0 0 1 2.485 2.223L10 10.92L2.015 6.223A2.5 2.5 0 0 1 4.5 4z" />
                 </svg>
-                michigan.cxo@xedinstitute.org
+                michiganross.cxo@xedinstitute.org
             </li>
         </ul>
     </div>
@@ -108,6 +108,11 @@
                     Mumbai 400051 </p>
             </div>
         </div>
+    </div>
+    <div>
+        <p>
+            The Michigan Ross Executive is collaborating with XED to offer a portfolio of high-impact programs for global senior leaders.
+        </p>
     </div>
 </footer>
 <?php wp_footer(); ?>

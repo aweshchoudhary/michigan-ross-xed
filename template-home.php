@@ -56,7 +56,7 @@ $program_details = get_field('program_details');
             </div>
             <div class="basis-full">
                 <p class="text-xs text-gray-300 mb-0">
-                    Disclaimer: Please note that in the event of a global or regional catastrophe, or any unforeseen circumstances, <br> <br class="md:hidden"> the Program's schedule, delivery method, faculty, and associated elements are subject to change at the sole discretion of the university.
+                    Disclaimer: Please note that in the event of a global or regional catastrophe, or any unforeseen circumstances, the Program's schedule, delivery method, faculty, and associated elements are subject to change at the sole discretion of the university.
                 </p>
             </div>
         </div>
@@ -75,18 +75,18 @@ $program_details = get_field('program_details');
                 <li>Earn 2 credit towards the Distinguished Leader Executive Certificate</li>
             </ul>
 
-            <p>*All benefits are subject to change.</p>
+            <p>*All benefits are subject to change based on University's discretion.</p>
         </div>
     </section>
     <section class="section bg-light-gray">
-        <h2>Michigan Ross Advantages</h2>
+        <h2>Michigan Ross Advantage</h2>
         <div class="flex md:flex-row flex-col justify-between md:gap-20 gap-5">
             <div class="flex-1">
                 <p>
                     At Michigan Ross, we are leaders, researchers, and lifelong learners creating innovative solutions to the world’s most complex business challenges. Our mission is to build a better world through business. We are committed to unlock the potential of business by developing powerful ideas, purpose-driven leaders, and a community dedicated to making a positive impact.
                 </p>
                 <p>
-                    Our impact extends far beyond the classroom as we aim to set a new standard in business and business education, and empower business leaders to make a positive difference in the world. Our core values serve as guiding principles for how we lead and represent our commitment to excellence;
+                    Our impact extends far beyond the classroom as we aim to set a new standard in business and business education, and empower business leaders to make a positive difference in the world. Our core values serve as guiding principles for how we lead and represent our commitment to excellence.
                 </p>
 
                 <div class="flex-1">
@@ -109,7 +109,7 @@ $program_details = get_field('program_details');
                         </li>
                         <li class="flex items-center gap-3 border py-2 px-3 bg-white md:basis-auto basis-full">
                             <figure class="md:w-[40px] w-[30px]"><img class="image-contain" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/4.png" alt=""></figure>
-                            Be Greate Things
+                            Do Great Things
                         </li>
                     </ul>
                 </div>
@@ -340,15 +340,17 @@ $program_details = get_field('program_details');
                 Now organizations can do leadership development in a fashion that is more effective, less expensive, and automatically gives rise to organizational improvement. And, they can supplement current initiatives with this extended application series.
             </p>
 
-            <h4>VP OF ENGINEERING, CHESTER KUSTARZ FROM DUO SECURITY HAD THIS TO SAY ABOUT HIS 100 DAYS EXPERIENCE:</h4>
+            <div class="bg-light-gray md:p-10 p-5">
+                <h4>VP OF ENGINEERING, CHESTER KUSTARZ FROM DUO SECURITY HAD THIS TO SAY ABOUT HIS 100 DAYS EXPERIENCE:</h4>
 
-            <h5>Our Goals</h5>
-            <ul>
-                <li>Build a management team centered around positive leadership</li>
-                <li>Find training resources to improve our management and leadership abilities</li>
-            </ul>
+                <h5>Our Goals</h5>
+                <ul>
+                    <li>Build a management team centered around positive leadership</li>
+                    <li>Find training resources to improve our management and leadership abilities</li>
+                </ul>
 
-            <p>The content is spot on for our goal of positive leadership. It provides many different layers and approaches to teach the material. By making it a daily habit, it becomes a constant reminder of the type of leaders we aspire to be. The format is perfect for rolling it out at our organization. It is low cost. Multiple sessions allow us to send another batch of leaders through the training. It is remote learning which makes it accessible by all.</p>
+                <p><em>"The content is spot on for our goal of positive leadership. It provides many different layers and approaches to teach the material. By making it a daily habit, it becomes a constant reminder of the type of leaders we aspire to be. The format is perfect for rolling it out at our organization. It is low cost. Multiple sessions allow us to send another batch of leaders through the training. It is remote learning which makes it accessible by all"</em></p>
+            </div>
         </div>
     </section>
     <section class="section-y">
@@ -456,7 +458,7 @@ $program_details = get_field('program_details');
     </section>
     <section class="section-y">
         <div class="section-x">
-            <h2>Global Industrial Experts</h2>
+            <h2>Global Industry Experts</h2>
         </div>
 
         <div class="relative">
@@ -522,7 +524,7 @@ $program_details = get_field('program_details');
             </div>
             <div class="relative md:min-h-[600px] min-h-[400px]">
                 <div class="md:w-1/2 w-4/5 md:h-[80%] h-[60%] absolute bg-light-gray inset-1/2 z-20 -translate-x-1/2 -translate-y-1/2">
-                    <figure class="h-full p-5 border-2 border-secondary bg-white">
+                    <figure class="h-full border-2 border-secondary bg-white">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/certificate-ross.png" alt="" class="image-contain">
                     </figure>
 
@@ -541,26 +543,31 @@ $program_details = get_field('program_details');
 
             <br>
 
-            <div class="flex">
-                <svg class="md:text-9xl shrink-0 text-5xl self-start justify-self-start" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
-                </svg>
-                <p class="mb-0 md:p-10 p-5 md:text-xl text-lg font-medium bg-light-gray"><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptate iste similique ea itaque exercitationem enim quibusdam deserunt ab nobis tempore tempora, eius voluptas voluptates praesentium, vel ipsa numquam. Porro!</em></p>
-                <svg class="md:text-9xl shrink-0 text-5xl -rotate-180 self-end" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
-                </svg>
-            </div>
+            <h4>
+                You will be learning alongside people with roles including:
+            </h4>
+            <ul class="list-none pl-0 flex flex-wrap gap-3">
+                <li class="px-5 py-3 border w-fit border-secondary">Chief Executive Officer</li>
+                <li class="px-5 py-3 border w-fit border-secondary">Managing Director</li>
+                <li class="px-5 py-3 border w-fit border-secondary">Member of the Board</li>
+                <li class="px-5 py-3 border w-fit border-secondary">Founder/Partner</li>
+                <li class="px-5 py-3 border w-fit border-secondary">Executive Director</li>
+                <li class="px-5 py-3 border w-fit border-secondary">Chief Operating Officer</li>
+                <li class="px-5 py-3 border w-fit border-secondary">Regional Director</li>
+                <li class="px-5 py-3 border w-fit border-secondary">Country Head</li>
+                <li class="px-5 py-3 border w-fit border-secondary">Business Head</li>
+                <li class="px-5 py-3 border w-fit border-secondary">General Manager</li>
+                <li class="px-5 py-3 border w-fit border-secondary">Vice President</li>
+                <li class="px-5 py-3 border w-fit border-secondary">Regional Head</li>
+            </ul>
+
+
         </div>
     </section>
     <section class="section flex md:gap-10 gap-5 md:flex-row flex-col">
         <div class="flex-1">
             <h2>Michigan Ross</h2>
             <p>Founded in 1924, the Stephen M. Ross School of Business at the University of Michigan is committed to building a better world through business. Through powerful ideas, purpose-driven leaders, and positive impact, we use business to make a meaningful difference in the world.</p>
-            <figure class="w-full">
-                <img class="image-contain" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/dei-about.jpg" alt="">
-            </figure>
-        </div>
-        <div class="flex-1">
             <ul class="list-none pl-0 divide-y divide-third">
                 <li class="flex gap-5 py-6">
                     <span style="font-family: Atkinson Hyperlegible;" class="text-primary font-bold md:text-6xl text-5xl">#1</span>
@@ -584,21 +591,12 @@ $program_details = get_field('program_details');
                         </span>
                     </p>
                 </li>
-                <li class="flex gap-5 py-6">
-                    <div style="font-family: Atkinson Hyperlegible;" class="text-primary font-bold md:text-6xl text-5xl">
-                        <span class="block md:text-2xl font-medium text-lg">TOP</span>
-                        <span class="block">10</span>
-                    </div>
-                    <p class="mb-0">
-                        <span class="block font-medium">
-                            TOP 10 GLOBAL EXECUTIVE EDUCATION PROVIDER
-                        </span>
-                        <span class="block">
-                            – Financial Times, 2023
-                        </span>
-                    </p>
-                </li>
             </ul>
+        </div>
+        <div class="flex-1">
+            <figure class="w-full">
+                <img class="image-contain" loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/dei-about.png" alt="">
+            </figure>
         </div>
     </section>
     <section class="section bg-light-gray">
@@ -606,15 +604,15 @@ $program_details = get_field('program_details');
             <h2>Who is This Program is for?</h2>
             <p>This program is tailored for distinguished C-suite executives who are eager to stay ahead of the curve and lead their organizations to unprecedented heights. If you are a visionary leader committed to continuous growth and innovation, this program is your gateway to mastering the art of strategic leadership, fostering a culture of innovation, and executing with precision in an ever-evolving business landscape.</p>
 
-            <ul class="list-none space-y-2 pl-0">
-                <li class="flex gap-4">
+            <ul class="list-none space-y-2 pl-0 font-medium">
+                <li class="flex md:items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" class="text-background md:text-4xl text-2xl shrink-0" width="1em" height="1em" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M10.5 15.25A.74.74 0 0 1 10 15l-3-3a.75.75 0 0 1 1-1l2.47 2.47L19 5a.75.75 0 0 1 1 1l-9 9a.74.74 0 0 1-.5.25" />
                         <path fill="currentColor" d="M12 21a9 9 0 0 1-7.87-4.66a8.7 8.7 0 0 1-1.07-3.41a9 9 0 0 1 4.6-8.81a8.7 8.7 0 0 1 3.41-1.07a8.9 8.9 0 0 1 3.55.34a.75.75 0 1 1-.43 1.43a7.6 7.6 0 0 0-3-.28a7.4 7.4 0 0 0-2.84.89a7.5 7.5 0 0 0-2.2 1.84a7.42 7.42 0 0 0-1.64 5.51a7.4 7.4 0 0 0 .89 2.84a7.5 7.5 0 0 0 1.84 2.2a7.42 7.42 0 0 0 5.51 1.64a7.4 7.4 0 0 0 2.84-.89a7.5 7.5 0 0 0 2.2-1.84a7.42 7.42 0 0 0 1.64-5.51a.75.75 0 1 1 1.57-.15a9 9 0 0 1-4.61 8.81A8.7 8.7 0 0 1 12.93 21z" />
                     </svg>
                     10+ years of work experience and proven success in leading high-performing teams / impactful projects
                 </li>
-                <li class="flex gap-4">
+                <li class="flex md:items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" class="text-background md:text-4xl text-2xl shrink-0" width="1em" height="1em" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M10.5 15.25A.74.74 0 0 1 10 15l-3-3a.75.75 0 0 1 1-1l2.47 2.47L19 5a.75.75 0 0 1 1 1l-9 9a.74.74 0 0 1-.5.25" />
                         <path fill="currentColor" d="M12 21a9 9 0 0 1-7.87-4.66a8.7 8.7 0 0 1-1.07-3.41a9 9 0 0 1 4.6-8.81a8.7 8.7 0 0 1 3.41-1.07a8.9 8.9 0 0 1 3.55.34a.75.75 0 1 1-.43 1.43a7.6 7.6 0 0 0-3-.28a7.4 7.4 0 0 0-2.84.89a7.5 7.5 0 0 0-2.2 1.84a7.42 7.42 0 0 0-1.64 5.51a7.4 7.4 0 0 0 .89 2.84a7.5 7.5 0 0 0 1.84 2.2a7.42 7.42 0 0 0 5.51 1.64a7.4 7.4 0 0 0 2.84-.89a7.5 7.5 0 0 0 2.2-1.84a7.42 7.42 0 0 0 1.64-5.51a.75.75 0 1 1 1.57-.15a9 9 0 0 1-4.61 8.81A8.7 8.7 0 0 1 12.93 21z" />
@@ -631,7 +629,7 @@ $program_details = get_field('program_details');
     </section>
     <section class="section">
         <div>
-            <h2>Inquire for your organisation</h2>
+            <h2>Inquire For Your Organisation</h2>
             <p>Taking this programme with colleagues can enhance communication and accelerate impact within your organisation. It also fosters meaningful discussions among participants.</p>
             <a href="/get-in-touch" class="cbtn-outline">Get In Touch</a>
         </div>
