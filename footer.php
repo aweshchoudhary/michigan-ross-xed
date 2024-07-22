@@ -92,7 +92,7 @@
             </div>
             <div>
                 <h3 class="text-third">UAE</h3>
-                <p>Al Sawari Tower - B, National Theatre Airport Road, Al Khalidiya, Abu Dhabi City, Abu Dhabi</p>
+                <p>Al Sawari Tower - B, National Theatre Airport Road, Al Khalidiya, Abu Dhabi</p>
             </div>
         </div>
         <div class="flex items-start md:gap-5 gap-3 md:mt-10 mt-5">
@@ -111,7 +111,7 @@
     </div>
     <div>
         <p>
-            The Michigan Ross Executive is collaborating with XED to offer a portfolio of high-impact programs for global senior leaders.
+            The Michigan Ross Executive Education is collaborating with XED to offer a portfolio of high-impact programs for global senior leaders.
         </p>
     </div>
 </footer>
