@@ -110,7 +110,7 @@
         </div>
     </div>
     <div>
-        <p>
+        <p class="mb-0">
             The Michigan Ross Executive Education is collaborating with XED to offer a portfolio of high-impact programs for global senior leaders.
         </p>
     </div>

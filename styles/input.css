@@ -24,8 +24,10 @@
         @apply outline-primary accent-primary !important;
     }
 
-    *::placeholder {
-        @apply capitalize;
+    *::placeholder,
+    .placeholder,
+    .placeholder::placeholder {
+        @apply capitalize !important;
     }
 
     /* Common Styles for Text */
