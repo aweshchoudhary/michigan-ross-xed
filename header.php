@@ -15,21 +15,33 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
+    <?php
+    $primary_header = get_field("primary_header");
+    ?>
+
     <header class="bg-background">
         <div class="border-b flex items-center justify-between border-gray-600 md:px-28 px-5 py-4 md:gap-0 gap-20">
             <a aria-label="goto home page" href="/">
                 <figure class="md:w-[300px]  sm:w-[180px] w-[180px]">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/michigan-ross.png" class="image-contain" alt="">
+                    <?php echo wp_get_attachment_image($primary_header["main_logo"], "medium", false, [
+                        "loading" => "eager",
+                        "class" => "image-contain",
+                    ]); ?>
+                    <figcaption class="sr-only"><?php echo wp_get_attachment_caption($primary_header["main_logo"]); ?></figcaption>
                 </figure>
             </a>
             <a aria-label="goto home page" href="/">
                 <figure class="md:w-[70px] sm:w-[60px] w-[40px]">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/xed.png" class="image-contain" alt="">
+                    <?php echo wp_get_attachment_image($primary_header["secondary_logo"], "medium", false, [
+                        "loading" => "eager",
+                        "class" => "image-contain",
+                    ]); ?>
+                    <figcaption class="sr-only"><?php echo wp_get_attachment_caption($primary_header["secondary_logo"]); ?></figcaption>
                 </figure>
             </a>
         </div>
         <div class="py-3 text-center">
-            <h2 class="capitalize mb-0 font-semibold text-white">michigan ross CXO leadership program</h2>
+            <h2 class="capitalize mb-0 font-semibold text-white"><?php echo $primary_header["title"] ?></h2>
         </div>
     </header>
 

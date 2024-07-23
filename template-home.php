@@ -2,65 +2,82 @@
 // Template Name: Home Page
 
 get_header();
-
-$hero_sec = get_field('hero_section');
-$program_details = get_field('program_details');
 ?>
 
 <article>
-    <section class="flex md:flex-row flex-col">
-        <div class="flex-1">
-            <figure class="h-full w-full">
-                <?php echo wp_get_attachment_image(526, 'large', false, [
-                    'loading' => 'lazy',
-                    'class' => 'image-cover',
-                ]); ?>
-                <figcaption><?php echo wp_get_attachment_caption(
-                                526,
-                            ); ?></figcaption>
-            </figure>
-        </div>
-        <div class="flex-1 md:p-10 p-5 bg-light-gray">
-            <h2>Get Your Brochure</h2>
-            <?php echo do_shortcode("[wpforms id='534']"); ?>
-        </div>
-    </section>
-    <section class="section">
-        <div>
-            <h2>Program Overview</h2>
-            <p>Michigan Ross Executive Education collaborates with XED to build the CXO Leadership Program which is meticulously crafted to empower C-suite executives with the essential skills, insights, and strategies needed to excel in their leadership roles.</p>
 
-            <p>Designed as a modular structure, the 6 months program offers a comprehensive curriculum that delves into three core themes—Leadership, Innovation, and Execution. Through 100% live interactive sessions, expert guidance from faculty leaders, and peer collaboration, participants will embark on a transformative journey to elevate their leadership prowess and drive organizational success.</p>
+    <?php
+    $hero_section = get_field("hero_section");
+    if ($hero_section) :
+    ?>
+        <section class="flex md:flex-row flex-col">
+            <div class="flex-1">
+                <?php if ($hero_section["hero_image"]) : ?>
+                    <figure class="h-full w-full">
+                        <?php echo wp_get_attachment_image($hero_section["hero_image"], "large", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($hero_section["hero_image"]) ?? "Michigan ross or xed website image"; ?></figcaption>
+                    </figure>
+                <?php endif; ?>
+            </div>
+            <div class="flex-1 md:p-10 p-5 bg-light-gray">
+                <?php if ($hero_section["form_id"]) : ?>
+                    <h2>Get Your Brochure</h2>
+                    <?php
+                    $form_id = $hero_section['form_id'];
+                    echo do_shortcode("[wpforms id='$form_id']");
+                    ?>
+                <?php endif; ?>
+            </div>
+        </section>
+    <?php endif; ?>
 
-            <p>Gain access to a prestigious network of industry leaders, ongoing professional development opportunities, and exclusive alumni benefits. Upon completion, participants will receive a certificate from Michigan Ross Executive Education.</p>
 
-        </div>
-    </section>
-    <section class="section bg-background text-white">
-        <div class="flex flex-wrap md:gap-10 md:justify-between gap-5">
-            <div class="lg:basis-auto sm:basis-1/3 basis-full">
-                <h3 class="text-third md:mb-3 mb-0">Start Date</h3>
-                <p class="mb-0 md:text-3xl text-xl font-semibold">22 Jan 2025</p>
+    <?php
+    $program_overview = get_field("program_overview");
+    if ($program_overview) :
+    ?>
+        <section class="section">
+            <div>
+                <?php echo wp_kses_post($program_overview) ?>
             </div>
-            <div class="lg:basis-auto sm:basis-1/3 basis-full">
-                <h3 class="text-third md:mb-3 mb-0">Format</h3>
-                <p class="mb-0 md:text-3xl text-xl font-semibold">100% Live Interactive</p>
+        </section>
+    <?php endif; ?>
+
+    <?php
+    $program_details = get_field("program_details");
+    if ($program_details) :
+    ?>
+        <section class="section bg-background text-white">
+            <div class="flex flex-wrap md:gap-10 md:justify-between gap-5">
+                <?php if (count($program_details["details"])) :
+                    foreach ($program_details["details"] as $item) :
+
+                ?>
+                        <div class="lg:basis-auto sm:basis-1/3 basis-full">
+                            <?php if (!empty($item["sub_heading"])) : ?>
+                                <h3 class="text-third md:mb-3 mb-0"><?php echo wp_kses_post($item["sub_heading"]) ?></h3>
+                            <?php endif; ?>
+                            <?php if (!empty($item["heading"])) : ?>
+                                <p class="mb-0 md:text-3xl text-xl font-semibold"><?php echo wp_kses_post($item["heading"]) ?></p>
+                            <?php endif; ?>
+                        </div>
+                <?php
+                    endforeach;
+                endif;
+                ?>
+
+                <?php if (!empty($program_details["disclaimer"])) : ?>
+                    <div class="basis-full text-xs text-gray-300">
+                        <?php echo wp_kses_post($program_details["disclaimer"]); ?>
+                    </div>
+                <?php endif; ?>
             </div>
-            <div class="lg:basis-auto sm:basis-1/3 basis-full">
-                <h3 class="text-third md:mb-3 mb-0">Duration</h3>
-                <p class="mb-0 md:text-3xl text-xl font-semibold">6 Months</p>
-            </div>
-            <div class="lg:basis-auto sm:basis-1/3 basis-full">
-                <h3 class="text-third md:mb-3 mb-0">Program Fee</h3>
-                <p class="mb-0 md:text-3xl text-xl font-semibold">USD 4,800</p>
-            </div>
-            <div class="basis-full">
-                <p class="text-xs text-gray-300 mb-0">
-                    Disclaimer: Please note that in the event of a global or regional catastrophe, or any unforeseen circumstances, the Program's schedule, delivery method, faculty, and associated elements are subject to change at the sole discretion of the university.
-                </p>
-            </div>
-        </div>
-    </section>
+        </section>
+    <?php endif; ?>
+
     <section class="section">
         <div>
             <h2>Program Alumni Benefits:</h2>
