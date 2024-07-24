@@ -16,7 +16,7 @@
     <?php wp_body_open(); ?>
 
     <?php
-    $primary_header = get_field("primary_header");
+    $primary_header = get_field("primary_header", "option");
     ?>
 
     <header class="bg-background">
