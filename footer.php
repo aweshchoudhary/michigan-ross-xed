@@ -1,5 +1,5 @@
 </main>
-<footer class="md:p-20 px-5 md:py-20 py-10 bg-background text-white flex flex-wrap gap-5">
+<footer class="section bg-background text-white flex flex-wrap gap-5">
     <div class="md:basis-1/4 basis-full flex-1 gap-5">
         <figure class="md:w-1/2 w-20">
             <img src="<?php echo get_template_directory_uri() ?>/assets/xed.png" class="image-contain" alt="">
