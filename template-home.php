@@ -618,7 +618,7 @@ get_header();
     </section>
     <section class="section bg-light-gray">
         <div>
-            <h2>Who is This Program for?</h2>
+            <h2>Who Is This Program For?</h2>
             <p>This program is tailored for distinguished C-suite executives who are eager to stay ahead of the curve and lead their organizations to unprecedented heights. If you are a visionary leader committed to continuous growth and innovation, this program is your gateway to mastering the art of strategic leadership, fostering a culture of innovation, and executing with precision in an ever-evolving business landscape.</p>
 
             <ul class="list-none space-y-2 pl-0 font-medium">
