@@ -11,7 +11,7 @@
         --pred: 8 62% 37%;
         --light-gray: 0 0% 94%;
         --border: 0 0% 92%;
-        --wpforms-label-error-color: 0 100% 67% !important;
+        --wpforms-label-error-color: #ff5757 !important;
     }
 
     body,
