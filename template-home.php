@@ -412,7 +412,6 @@ get_header();
                                 <figcaption class="sr-only"><?php echo wp_get_attachment_caption($certificate["certificate_image"]) ?? "Michigan Ross or XED website image"; ?></figcaption>
                             <?php endif; ?>
                         </figure>
-
                     </div>
                     <?php if (!empty($certificate["lower_description"])) :  ?>
                         <div class="h-[50%] text-xs text-gray-300 w-full bg-primary flex flex-col justify-end section-x absolute z-10 bottom-0 left-0">
