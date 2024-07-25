@@ -315,7 +315,7 @@ get_header();
                                     <?php if (!empty($item["profile_image"])) : ?>
                                         <?php echo wp_get_attachment_image($item["profile_image"], "medium", false, [
                                             "loading" => "lazy",
-                                            "class" => "image-contain",
+                                            "class" => "image-cover",
                                         ]); ?>
                                         <figcaption class="sr-only"><?php echo wp_get_attachment_caption($item["profile_image"]) ?? "Michigan Ross or XED website image"; ?></figcaption>
                                     <?php endif; ?>
@@ -368,7 +368,7 @@ get_header();
                                     <?php if (!empty($item["profile_image"])) : ?>
                                         <?php echo wp_get_attachment_image($item["profile_image"], "medium", false, [
                                             "loading" => "lazy",
-                                            "class" => "image-contain",
+                                            "class" => "image-cover",
                                         ]); ?>
                                         <figcaption class="sr-only"><?php echo wp_get_attachment_caption($item["profile_image"]) ?? "Michigan Ross or XED website image"; ?></figcaption>
                                     <?php endif; ?>
@@ -402,7 +402,7 @@ get_header();
                     <?php endif; ?>
                 </div>
                 <div class="relative md:min-h-[600px] min-h-[400px]">
-                    <div class="md:w-1/2 w-4/5 md:h-[80%] h-[60%] absolute bg-light-gray inset-1/2 z-20 -translate-x-1/2 -translate-y-1/2">
+                    <div class="md:w-1/2 w-4/5 md:h-[80%] h-[60%] absolute bg-light-gray left-1/2 top-5 z-20 -translate-x-1/2">
                         <figure class="h-full border-2 border-secondary bg-white">
                             <?php if (!empty($certificate["certificate_image"])) : ?>
                                 <?php echo wp_get_attachment_image($certificate["certificate_image"], "large", false, [
@@ -443,7 +443,7 @@ get_header();
                     <div><?php echo wp_kses_post($a_world_class_experience["sub_heading"]) ?></div>
                 <?php endif; ?>
 
-                <ul class="list-none pl-0 flex flex-wrap gap-3">
+                <ul class="list-none mt-5 pl-0 flex flex-wrap gap-3">
                     <?php
                     if (isset($a_world_class_experience["designation_list"]) && is_array($a_world_class_experience["designation_list"]) && !empty($a_world_class_experience["designation_list"])) {
                         foreach ($a_world_class_experience["designation_list"] as $item) { ?>
@@ -531,7 +531,7 @@ get_header();
                     if (isset($who_is_this_program_for["requirement_list"]) && is_array($who_is_this_program_for["requirement_list"]) && !empty($who_is_this_program_for["requirement_list"])) {
                         foreach ($who_is_this_program_for["requirement_list"] as $item) { ?>
                             <li class="flex md:items-center gap-2">
-                                <figure class="w-[30px]">
+                                <figure class="md:size-[40px] md:text-lg size-[30px] shrink-0">
                                     <?php echo wp_get_attachment_image($item["icon"], "thumbnail", false, [
                                         "loading" => "lazy",
                                         "class" => "image-cover",

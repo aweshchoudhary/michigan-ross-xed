@@ -55,7 +55,7 @@
                                         ); ?></figcaption>
                         </figure>
                         <div>
-                            <h3 class="text-2xl mb-1 font-semibold"><?php echo wp_kses_post($item["title"]) ?></h3>
+                            <h3 class="text-2xl mb-1 font-semibold text-third"><?php echo wp_kses_post($item["title"]) ?></h3>
                             <?php echo wp_kses_post($item["address"]) ?>
                         </div>
                     </div>
