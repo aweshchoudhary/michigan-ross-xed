@@ -125,6 +125,9 @@
         @apply align-baseline text-sm;
     }
 }
+.table-container {
+    @apply w-full overflow-x-auto !important;
+}
 
 .section {
     @apply md:px-28 md:py-14 p-5;
