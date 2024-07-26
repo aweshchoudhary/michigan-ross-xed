@@ -24,7 +24,13 @@ get_header();
             </div>
             <div class="flex-1 md:p-10 p-5 bg-light-gray">
                 <?php if (!empty($hero_section["form_id"])) : ?>
-                    <h2>Get Your Brochure</h2>
+                    <?php if (!empty($hero_section["form_title"])) : ?>
+                        <h2>
+                            <?php
+                            echo $hero_section["form_title"];
+                            ?>
+                        </h2>
+                    <?php endif; ?>
                     <?php
                     $form_id = $hero_section['form_id'];
                     echo do_shortcode("[wpforms id='$form_id']");
@@ -60,6 +66,21 @@ get_header();
                             <?php endif; ?>
                             <?php if (!empty($item["heading"])) : ?>
                                 <p class="mb-0 md:text-3xl text-xl font-semibold"><?php echo wp_kses_post($item["heading"]) ?></p>
+                            <?php endif; ?>
+
+                            <?php if ($item["modal"]["modal_name"] && !empty($item["modal"]["modal_name"])) : ?>
+                                <button onclick="<?php echo str_replace(' ', '_', $item["modal"]["modal_name"]); ?>.showModal()"><?php echo $item["modal"]["modal_name"] ?></button>
+                                <dialog id="<?php echo str_replace(' ', '_', $item["modal"]["modal_name"]); ?>" class="modal">
+                                    <div class="modal-box rounded-none md:p-10 p-5 md:max-w-[60%]">
+                                        <?php echo $item["modal"]["modal_content"]; ?>
+                                        <?php
+                                        $form_id = $item["modal"]["modal_id"];
+                                        echo do_shortcode("[wpforms id='$form_id']"); ?>
+                                    </div>
+                                    <form method="dialog" class="modal-backdrop">
+                                        <button>Close</button>
+                                    </form>
+                                </dialog>
                             <?php endif; ?>
                         </div>
                 <?php

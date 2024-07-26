@@ -1,4 +1,5 @@
 <?php
+
 function load_slick_carousel_styles()
 {
     if (is_page_template('template-home.php')) {
