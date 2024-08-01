@@ -267,7 +267,7 @@ get_header();
                 <?php endif; ?>
 
                 <?php if ($days_of_coaching["yt_video"] && $days_of_coaching["yt_video"]["video_id"]) : ?>
-                    <div class="md:w-4/5 w-full my-5">
+                    <div class="md:w-[55%] w-full my-5">
                         <figure class="cursor-pointer relative group bg-light-gray aspect-video" onclick="lazyLoadVideo('<?php echo $days_of_coaching['yt_video']['video_id'] ?>', this)">
                             <?php echo wp_get_attachment_image($days_of_coaching["yt_video"]["thumbnail"], "large", false, [
                                 "loading" => "lazy",
@@ -277,7 +277,7 @@ get_header();
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($days_of_coaching["yt_video"]["thumbnail"]) ?? "Michigan Ross or XED website image"; ?></figcaption>
 
                             <div class="play-btn group-hover:scale-110 transition-all">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-6xl sm:text-4xl text-3xl" width="1em" height="1em" viewBox="0 0 256 256">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-5xl sm:text-3xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
                                     <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
                                 </svg>
                             </div>
@@ -346,8 +346,8 @@ get_header();
                                 <?php if (!empty($item["title"])) : ?>
                                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0"><?php echo wp_kses_post($item["title"]) ?></p>
                                 <?php endif; ?>
-                                <?php if (!empty($item["title"])) : ?>
-                                    <p class="mb-2 text-left text-sm"><?php echo wp_kses_post($item["title"]) ?></p>
+                                <?php if (!empty($item["description"])) : ?>
+                                    <p class="mb-2 text-left text-sm"><?php echo wp_kses_post($item["description"]) ?></p>
                                 <?php endif; ?>
                             </div>
                     <?php }
@@ -399,8 +399,8 @@ get_header();
                                 <?php if (!empty($item["title"])) : ?>
                                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0"><?php echo wp_kses_post($item["title"]) ?></p>
                                 <?php endif; ?>
-                                <?php if (!empty($item["title"])) : ?>
-                                    <p class="mb-2 text-left text-sm"><?php echo wp_kses_post($item["title"]) ?></p>
+                                <?php if (!empty($item["description"])) : ?>
+                                    <p class="mb-2 text-left text-sm"><?php echo wp_kses_post($item["description"]) ?></p>
                                 <?php endif; ?>
                             </div>
                     <?php }
